@@ -1,3 +1,9 @@
 var userName = window.prompt("please enter your name: ");
-var greetingParagraph = document.getElementById(greeting);
-greetingParagraph.innerHTML += "," + userName;
+var greetingParagraph = document.getElementById("greeting");
+greetingParagraph.innerHTML += ", " + userName
+var num1 = parseInt(window.prompt("Enter a nmeber: "))
+var num2 = parseInt(window.prompt("Enter a nmeber: "))
+var operand1 = document.getElementById("operand1");
+var operand2 = document.getElementById("operand2");
+operand1.innerHTML += num1;
+operand2.innerHTML += num2;
